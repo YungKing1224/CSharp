@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace HelloWorld
 {
@@ -6,16 +6,16 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-           int num1, num2, ans;
+           double num1, num2, ans;
             Console.WriteLine("Basic Calculator: 1. ADD 2. Mul 3. Div 4. Sub");
             int input = Convert.ToInt32(Console.ReadLine());
             if (input == 1)
             {
                 //Input numbers
                 Console.WriteLine("1st Input: ");
-                num1 = Convert.ToInt32(Console.ReadLine());
+                num1 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("2nd Input: ");
-                num2 = Convert.ToInt32(Console.ReadLine());
+                num2 = Convert.ToDouble(Console.ReadLine());
 
                 //Do operation
                 ans = num1 + num2;
@@ -25,9 +25,9 @@ namespace HelloWorld
              {
                 //Input numbers
                 Console.WriteLine("1st Input: ");
-                num1 = Convert.ToInt32(Console.ReadLine());
+                num1 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("2nd Input: ");
-                num2 = Convert.ToInt32(Console.ReadLine());
+                num2 = Convert.ToDouble(Console.ReadLine());
 
                 //DO operation
                 ans = num1 * num2;
@@ -37,9 +37,9 @@ namespace HelloWorld
             {
                 //Input numbers
                 Console.WriteLine("1st Input: ");
-                num1 = Convert.ToInt32(Console.ReadLine());
+                num1 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("2nd Input: ");
-                num2 = Convert.ToInt32(Console.ReadLine());
+                num2 = Convert.ToDouble(Console.ReadLine());
 
                 //Do operation
                 ans = num1 / num2;
@@ -49,9 +49,9 @@ namespace HelloWorld
             {
                 //Input numbers
                 Console.WriteLine("1st Input: ");
-                num1 = Convert.ToInt32(Console.ReadLine());
+                num1 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("2nd Input: ");
-                num2 = Convert.ToInt32(Console.ReadLine());
+                num2 = Convert.ToDouble(Console.ReadLine());
 
                 //Do operation
                 ans = num1 - num2;
